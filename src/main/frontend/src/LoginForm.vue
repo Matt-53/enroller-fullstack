@@ -5,6 +5,7 @@
     <label>Hasło</label>
     <input type="password" v-model="user.password">
     <button type="submit">{{ buttonLabel || 'Zaloguj się' }}</button>
+
   </form>
 </template>
 
